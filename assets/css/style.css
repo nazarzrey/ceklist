@@ -1,0 +1,99 @@
+body {
+    background-color: #f5f7fa;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background: #fff;
+    border-bottom: 2px solid #f0f0f0;
+    font-weight: 600;
+}
+
+.table th {
+    border-top: none;
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Target Card */
+.target-card {
+    background: white;
+    border-radius: 20px;
+    padding: 16px;
+    margin-bottom: 12px;
+    border: 1px solid #eef2f6;
+    transition: all 0.2s;
+}
+
+.target-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.target-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.target-amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.target-deadline {
+    font-size: 0.75rem;
+    color: #7f8c8d;
+    margin-top: 8px;
+}
+
+.target-footer {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #eef2f6;
+}
+
+.btn-tambah-dana {
+    width: 100%;
+    padding: 8px;
+    background: #e8f0fe;
+    border: none;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2d3e50;
+    transition: all 0.2s;
+}
+
+.btn-tambah-dana:hover {
+    background: #d0e0f8;
+}

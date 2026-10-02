@@ -1,0 +1,45 @@
+.auth-shell { min-height: 100vh; background: #f5f7f4; }
+.auth-layout { min-height: 100vh; display: grid; grid-template-columns: minmax(320px, .95fr) 1.05fr; }
+.auth-aside { padding: clamp(28px, 5vw, 70px); color: #fff; background: radial-gradient(circle at 88% 20%, rgba(244,119,33,.25), transparent 26%), linear-gradient(145deg, #111714 5%, #1d2b22 65%, #24523a); display: flex; flex-direction: column; justify-content: space-between; }
+.auth-brand { align-self: flex-start; }
+.auth-aside-copy { max-width: 570px; margin: 70px auto; }
+.auth-aside-copy .eyebrow { color: #ffb27a; font-size: 10px; letter-spacing: 1.4px; font-weight: 700; }
+.auth-aside-copy h1 { margin: 19px 0 15px; max-width: 520px; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.12; letter-spacing: -2px; }
+.auth-aside-copy p { max-width: 470px; color: #c1d0c5; line-height: 1.8; font-size: 14px; }
+.auth-feature-list { display: grid; gap: 13px; margin-top: 32px; color: #e9f1eb; font-size: 12px; }
+.auth-feature-list i { width: 27px; display: inline-grid; place-items: center; color: #ffad70; font-size: 16px; margin-right: 7px; }
+.auth-aside-foot { color: #a8b9ad; font-size: 11px; }
+.auth-main { display: grid; place-items: center; padding: 32px 22px; }
+.auth-card { width: min(100%, 440px); padding: clamp(26px, 4vw, 44px); background: #fff; border: 1px solid #e7ebe7; border-radius: 22px; box-shadow: 0 24px 70px rgba(24,33,29,.09); }
+.auth-icon { width: 48px; height: 48px; display: grid; place-items: center; margin-bottom: 20px; color: #fff; background: linear-gradient(135deg, #ff9b45, #ed681a); border-radius: 15px; font-size: 21px; box-shadow: 0 8px 20px rgba(244,119,33,.22); }
+.auth-card > .eyebrow { color: #218b58; font-size: 10px; font-weight: 700; letter-spacing: 1.3px; }
+.auth-card h2 { margin: 7px 0 5px; font-size: 27px; letter-spacing: -.8px; }
+.auth-subtitle { color: #748078; font-size: 12px; margin-bottom: 25px; }
+.auth-card .form-field { margin-bottom: 17px; }
+.auth-card label { display: block; color: #46544b; font-size: 11px; font-weight: 600; margin-bottom: 6px; }
+.auth-card .form-control { min-height: 45px; border-radius: 10px; font-size: 12px; }
+.auth-submit { width: 100%; margin-top: 4px; min-height: 46px; }
+.auth-hint { display: flex; align-items: flex-start; gap: 9px; margin-top: 18px; padding: 12px; color: #65736a; background: #f4f7f3; border-radius: 11px; font-size: 10px; line-height: 1.6; }
+.auth-hint i { color: #218b58; font-size: 14px; }
+@media (max-width: 760px) { .auth-layout { grid-template-columns: 1fr; }.auth-aside { min-height: 310px; padding: 24px; }.auth-aside-copy { margin: 40px 0 25px; }.auth-aside-copy h1 { font-size: 34px; letter-spacing: -1px; }.auth-feature-list { display: none; }.auth-aside-foot { font-size: 10px; }.auth-main { padding: 25px 16px; } }
+
+/* Shared blue brand palette */
+.auth-shell { background:#f4f7ff; }
+.auth-aside { background:radial-gradient(circle at 88% 20%,rgba(24,174,202,.25),transparent 26%),linear-gradient(145deg,#041b90cc 5%,#102d9e 65%,#174cb5); }
+.auth-aside-copy .eyebrow { color:#8feaff; }
+.auth-aside-copy p { color:#d2def7; }
+.auth-feature-list { color:#edf3ff; }
+.auth-feature-list i { color:#78dff1; }
+.auth-aside-foot { color:#bfcee9; }
+.auth-card > .eyebrow,.auth-hint i { color:#2855dc; }
+.auth-icon { background:linear-gradient(135deg,#48c9e2,#2855dc); box-shadow:0 8px 20px rgba(40,85,220,.22); }
+.auth-hint { color:#65738f; background:#f0f4ff; }
+.auth-card .form-control:focus { border-color:#9eafe0; box-shadow:0 0 0 3px rgba(49,91,214,.16); }
+.auth-shell { background:#f5f7fc; }
+.auth-aside { background:radial-gradient(circle at 88% 20%,rgba(43,158,179,.19),transparent 26%),linear-gradient(145deg,#041b90cc 5%,#102b78 65%,#17479f); }
+.auth-aside-copy .eyebrow { color:#a8dce7; }
+.auth-aside-copy p { color:#d3dcf1; }
+.auth-feature-list i { color:#91d1dc; }
+.auth-icon { background:linear-gradient(140deg,#4f83ee,#244bb7); box-shadow:0 8px 20px rgba(27,65,165,.2); }
+.auth-card > .eyebrow,.auth-hint i { color:#315bd6; }
+.auth-hint { color:#5e6d88; background:#f0f3f9; }

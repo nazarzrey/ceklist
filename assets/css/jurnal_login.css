@@ -1,0 +1,89 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #eef3f7;
+    color: #17202a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-shell {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.login-panel {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border: 1px solid #d9e2ea;
+    border-radius: 8px;
+    box-shadow: 0 12px 34px rgba(20, 35, 50, 0.12);
+    padding: 28px;
+}
+
+.login-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.brand-mark {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    background: #0b6b5e;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.login-brand h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.login-brand p {
+    margin: 2px 0 0;
+    color: #607080;
+    font-size: 14px;
+}
+
+.login-form .form-label {
+    font-weight: 600;
+    color: #263746;
+}
+
+.login-form .form-control {
+    min-height: 44px;
+    border-color: #c7d3dd;
+    border-radius: 8px;
+}
+
+.login-form .btn {
+    min-height: 44px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+@media (max-width: 480px) {
+    .login-shell {
+        align-items: stretch;
+        padding: 16px;
+    }
+
+    .login-panel {
+        margin: auto 0;
+        padding: 22px;
+    }
+}

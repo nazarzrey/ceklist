@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Akses asset tetap dilayani langsung oleh Apache.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# URL CI3 tetap mudah dibaca tanpa menulis index.php.
+RewriteRule ^(.*)$ index.php/$1 [L]

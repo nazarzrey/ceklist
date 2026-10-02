@@ -1,0 +1,11 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2026-09-24 15:45:18 --> Severity: error --> Exception: Table 'webkelas.tasks' doesn't exist C:\project\Web\ci3_webkelas\system\database\drivers\mysqli\mysqli_driver.php 305
+ERROR - 2026-09-24 15:45:18 --> Severity: Warning --> include(C:\project\Web\ci3_webkelas\application\views\errors\html\error_exception.php): Failed to open stream: No such file or directory C:\project\Web\ci3_webkelas\system\core\Exceptions.php 342
+ERROR - 2026-09-24 15:45:18 --> Severity: Warning --> include(): Failed opening 'C:\project\Web\ci3_webkelas\application\views\errors\html\error_exception.php' for inclusion (include_path='.;C:/runtime/laragon/etc/php/pear') C:\project\Web\ci3_webkelas\system\core\Exceptions.php 342
+ERROR - 2026-09-24 15:45:18 --> Severity: error --> Exception: Table 'webkelas.courses' doesn't exist C:\project\Web\ci3_webkelas\system\database\drivers\mysqli\mysqli_driver.php 305
+ERROR - 2026-09-24 15:45:18 --> Severity: Warning --> include(C:\project\Web\ci3_webkelas\application\views\errors\html\error_exception.php): Failed to open stream: No such file or directory C:\project\Web\ci3_webkelas\system\core\Exceptions.php 342
+ERROR - 2026-09-24 15:45:18 --> Severity: Warning --> include(): Failed opening 'C:\project\Web\ci3_webkelas\application\views\errors\html\error_exception.php' for inclusion (include_path='.;C:/runtime/laragon/etc/php/pear') C:\project\Web\ci3_webkelas\system\core\Exceptions.php 342
+ERROR - 2026-09-24 15:45:18 --> Severity: error --> Exception: Table 'webkelas.worklogs' doesn't exist C:\project\Web\ci3_webkelas\system\database\drivers\mysqli\mysqli_driver.php 305
+ERROR - 2026-09-24 15:45:18 --> Severity: Warning --> include(C:\project\Web\ci3_webkelas\application\views\errors\html\error_exception.php): Failed to open stream: No such file or directory C:\project\Web\ci3_webkelas\system\core\Exceptions.php 342
+ERROR - 2026-09-24 15:45:18 --> Severity: Warning --> include(): Failed opening 'C:\project\Web\ci3_webkelas\application\views\errors\html\error_exception.php' for inclusion (include_path='.;C:/runtime/laragon/etc/php/pear') C:\project\Web\ci3_webkelas\system\core\Exceptions.php 342

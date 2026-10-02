@@ -1,0 +1,255 @@
+/**
+ * Init — CSS khusus halaman inisialisasi WebKelas.
+ *
+ * File: assets/css/init.css
+ */
+.init-shell {
+  font-family: 'Poppins', system-ui, sans-serif;
+  background: #f5f7f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.init-shell-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.init-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.init-brand-link {
+  text-decoration: none;
+  color: #0b1f3a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.init-brand-link:hover {
+  text-decoration: underline;
+}
+
+.init-mark {
+  color: #0b1f3a;
+  font-size: 1.4rem;
+}
+
+.init-main {
+  flex: 1;
+}
+
+.init-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(10, 20, 50, 0.08);
+  padding: 24px;
+}
+
+.init-card-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e9ef;
+}
+
+.init-card-head h1 {
+  font-size: 1.35rem;
+  margin: 0;
+  color: #0b1f3a;
+}
+
+.init-card-head small {
+  color: #6b7a99;
+}
+
+.init-form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.init-form .form-field {
+  margin-bottom: 16px;
+}
+
+.init-form label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #2c3a57;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.init-form .form-control {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d3d9e6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.init-form .form-control:focus {
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2);
+  outline: none;
+}
+
+.init-btn {
+  width: 100%;
+  padding: 11px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  background: #4a6cf7;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.init-btn:hover {
+  background: #3754d1;
+}
+
+.init-alert {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.init-alert-error {
+  background: #fde8e8;
+  color: #9b1c1c;
+  border: 1px solid #f5c2c2;
+}
+
+.init-foot {
+  margin-top: 22px;
+  text-align: center;
+  color: #6b7a99;
+  font-size: 0.85rem;
+}
+
+.init-table-wrap {
+  margin-bottom: 4px;
+}
+
+.init-table-wrap table th,
+.init-table-wrap table td {
+  vertical-align: middle;
+}
+
+.init-action {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.init-footer {
+  border-top: 1px solid #e6e9ef;
+  padding-top: 16px;
+}
+
+.init-footer-bottom {
+  margin-top: 24px;
+  color: #6b7a99;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.init-card-head .init-mark {
+  font-size: 1.4rem;
+}
+
+/* Shared WebKelas brand tokens and controls. See STYLEGUIDE.md. */
+:root {
+  --brand-orange: #f47721;
+  --brand-green: #218b58;
+  --brand-green-dark: #176b43;
+  --brand-line: #e7ebe7;
+  --brand-ink: #18211d;
+}
+.init-shell { color: var(--brand-ink); background: #f5f7f4; font-family: 'Poppins', system-ui, sans-serif; }
+.init-card { border-color: var(--brand-line); border-radius: 20px; box-shadow: 0 20px 60px rgba(24,33,29,.09); }
+.init-mark { background: linear-gradient(135deg, #ff9b45, #ed681a); box-shadow: 0 8px 20px rgba(244,119,33,.22); }
+.init-brand-link { color: var(--brand-ink); font-family: 'Poppins', sans-serif; }
+.init-btn, .init-shell .btn-primary { color: #fff; background: var(--brand-green); border-color: var(--brand-green); border-radius: 999px; font-family: inherit; font-weight: 600; }
+.init-btn:hover, .init-shell .btn-primary:hover { color: #fff; background: var(--brand-green-dark); border-color: var(--brand-green-dark); }
+.init-shell .btn { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; gap: 7px; font-family: inherit; font-weight: 600; transition: .18s ease; }
+.init-shell .btn:hover { transform: translateY(-1px); }
+.init-shell .btn-secondary { color: #26332b; background: #edf1ed; border-color: #edf1ed; border-radius: 999px; }
+.init-shell .btn-secondary:hover { color: #18211d; background: #e1e8e2; border-color: #e1e8e2; }
+.init-shell .btn-sm { min-height: 31px; padding: 5px 11px; font-size: .75rem; }
+.init-shell .btn-lg { min-height: 46px; }
+.init-shell .btn-outline-primary { color: var(--brand-green); border-color: #9fcdb1; border-radius: 999px; }
+.init-shell .btn-outline-primary:hover { color: #fff; background: var(--brand-green); border-color: var(--brand-green); }
+.init-shell .form-control, .init-shell .form-select { font-family: inherit; border-color: var(--brand-line); border-radius: 10px; }
+.init-shell .form-control:focus, .init-shell .form-select:focus { border-color: #80c9a0; box-shadow: 0 0 0 3px rgba(33,139,88,.15); }
+.init-form .form-control:focus { border-color: #80c9a0; box-shadow: 0 0 0 3px rgba(33,139,88,.15); }
+.init-card-head h1, .init-brand-link { color: var(--brand-ink); }
+.init-form label { color: #46544b; }
+.init-foot, .init-card-head small, .init-footer-bottom { color: #748078; }
+.init-shell .btn-light { color: #26332b; background: #edf1ed; border-color: #edf1ed; border-radius: 999px; }
+.init-shell .btn-light:hover { background: #e1e8e2; border-color: #e1e8e2; }
+.init-shell .btn-outline-light { color: #26332b; border-color: #cbd6cd; border-radius: 999px; }
+.init-shell .btn-outline-light:hover { color: #18211d; background: #edf1ed; border-color: #edf1ed; }
+.init-shell :focus-visible { outline: 3px solid rgba(33,139,88,.55); outline-offset: 2px; }
+.init-shell .table { --bs-table-border-color: var(--brand-line); font-family: inherit; }
+.init-shell .table thead th { color: #647168; background: #f3f6f2; font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; }
+.init-shell .alert { border: 0; border-radius: 13px; }
+.init-shell .badge.bg-success { color: #176b43 !important; background: #e5f5ec !important; }
+.init-shell .badge-success { color: #176b43 !important; background: #e5f5ec !important; }
+.init-shell .badge-danger { color: #a83630 !important; background: #fde9e7 !important; }
+.init-shell .badge.bg-warning { color: #9b4c13 !important; background: #fff0e4 !important; }
+.init-shell .badge.bg-info { color: #176b43 !important; background: #e5f5ec !important; }
+.init-shell .badge.bg-danger { color: #a83630 !important; background: #fde9e7 !important; }
+.init-shell .badge.bg-primary { background: #218b58 !important; }
+.init-shell .text-primary { color: #218b58 !important; }
+.init-shell .text-success { color: #218b58 !important; }
+
+/* Shared blue brand palette */
+:root { --brand-blue:#2855dc; --brand-blue-dark:#041b90cc; --brand-cyan:#18aeca; --brand-orange:#18aeca; --brand-green:#2855dc; --brand-green-dark:#041b90cc; --brand-line:#e4eaf6; --brand-ink:#17233f; }
+.init-shell { color:#17233f; background:#f4f7ff; }
+.init-card { border-color:#e4eaf6; box-shadow:0 20px 60px rgba(24,46,104,.09); }
+.init-mark { background:linear-gradient(135deg,#48c9e2,#2855dc); box-shadow:0 8px 20px rgba(40,85,220,.22); }
+.init-btn,.init-shell .btn-primary { color:#fff; background:#2855dc; border-color:#2855dc; }
+.init-btn:hover,.init-shell .btn-primary:hover { color:#fff; background:#041b90cc; border-color:#041b90cc; }
+.init-shell .btn-outline-primary { color:#2855dc; border-color:#9aade9; }
+.init-shell .btn-outline-primary:hover { color:#fff; background:#2855dc; border-color:#2855dc; }
+.init-shell .btn-secondary,.init-shell .btn-light { color:#26334f; background:#edf2ff; border-color:#edf2ff; }
+.init-shell .btn-secondary:hover,.init-shell .btn-light:hover { color:#17233f; background:#e1e9ff; border-color:#e1e9ff; }
+.init-shell .form-control:focus,.init-shell .form-select:focus,.init-form .form-control:focus { border-color:#9aade9; box-shadow:0 0 0 3px rgba(40,85,220,.15); }
+.init-shell :focus-visible { outline:3px solid rgba(40,85,220,.55); outline-offset:2px; }
+.init-shell .badge.bg-success,.init-shell .badge-success,.init-shell .badge.bg-info { color:#2449b5 !important; background:#eaf0ff !important; }
+.init-shell .badge.bg-primary { color:#fff !important; background-color:#2855dc !important; }
+.init-shell .text-primary,.init-shell .text-success { color:#2855dc !important; }
+.init-shell .table thead th { color:#65738f; background:#f4f7ff; }
+:root { --brand-blue:#315bd6; --brand-blue-dark:#041b90cc; --brand-cyan:#2b9eb3; --brand-orange:#2b9eb3; --brand-green:#315bd6; --brand-green-dark:#041b90cc; --brand-line:#e4e9f2; --brand-ink:#17233f; }
+.init-shell { color:#17233f; background:#f5f7fc; }
+.init-mark { background:linear-gradient(140deg,#4f83ee,#244bb7); box-shadow:0 8px 18px rgba(27,65,165,.2); }
+.init-btn,.init-shell .btn-primary { background:#315bd6; border-color:#315bd6; }
+.init-btn:hover,.init-shell .btn-primary:hover { background:#244bb7; border-color:#244bb7; }
+.init-shell .btn-outline-primary { color:#315bd6; border-color:#aebde7; }
+.init-shell .btn-outline-primary:hover { background:#315bd6; border-color:#315bd6; }
+.init-shell .form-control:focus,.init-shell .form-select:focus,.init-form .form-control:focus { border-color:#9eafe0; box-shadow:0 0 0 3px rgba(49,91,214,.16); }
+.init-shell :focus-visible { outline-color:rgba(49,91,214,.55); }
+.init-shell .badge.bg-success,.init-shell .badge-success,.init-shell .badge.bg-info { color:#244c89 !important; background:#e6f3f2 !important; }
+.init-shell .badge.bg-primary { background-color:#315bd6 !important; }
+.init-shell .text-primary,.init-shell .text-success { color:#315bd6 !important; }

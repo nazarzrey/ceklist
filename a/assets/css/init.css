@@ -1,0 +1,179 @@
+/**
+ * Init — CSS khusus halaman inisialisasi WebKelas.
+ *
+ * File: assets/css/init.css
+ */
+.init-shell {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #f4f6fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.init-shell-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.init-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.init-brand-link {
+  text-decoration: none;
+  color: #0b1f3a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.init-brand-link:hover {
+  text-decoration: underline;
+}
+
+.init-mark {
+  color: #0b1f3a;
+  font-size: 1.4rem;
+}
+
+.init-main {
+  flex: 1;
+}
+
+.init-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(10, 20, 50, 0.08);
+  padding: 24px;
+}
+
+.init-card-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e9ef;
+}
+
+.init-card-head h1 {
+  font-size: 1.35rem;
+  margin: 0;
+  color: #0b1f3a;
+}
+
+.init-card-head small {
+  color: #6b7a99;
+}
+
+.init-form {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.init-form .form-field {
+  margin-bottom: 16px;
+}
+
+.init-form label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #2c3a57;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.init-form .form-control {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d3d9e6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.init-form .form-control:focus {
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2);
+  outline: none;
+}
+
+.init-btn {
+  width: 100%;
+  padding: 11px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  background: #4a6cf7;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.init-btn:hover {
+  background: #3754d1;
+}
+
+.init-alert {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.init-alert-error {
+  background: #fde8e8;
+  color: #9b1c1c;
+  border: 1px solid #f5c2c2;
+}
+
+.init-foot {
+  margin-top: 22px;
+  text-align: center;
+  color: #6b7a99;
+  font-size: 0.85rem;
+}
+
+.init-table-wrap {
+  margin-bottom: 4px;
+}
+
+.init-table-wrap table th,
+.init-table-wrap table td {
+  vertical-align: middle;
+}
+
+.init-action {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.init-footer {
+  border-top: 1px solid #e6e9ef;
+  padding-top: 16px;
+}
+
+.init-footer-bottom {
+  margin-top: 24px;
+  color: #6b7a99;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.init-card-head .init-mark {
+  font-size: 1.4rem;
+}

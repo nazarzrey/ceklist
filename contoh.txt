@@ -1,0 +1,43 @@
+REKAPAN E-LEARNING MINGGU INI!!!:
+
+- Rekayasa Perangkat Lunak (Pertemuan 6)
+- Kerja Praktek (Pertemuan 4)
+- Teknologi Internet of Things (Pertemuan 4) - DATELINE: Hari jumat jam 23.00 WIB
+- Basis Data 2 (Pertemuan 5 & Pertemuan 6)
+- Mobile Programming (Pertemuan 5 & Pertemuan 6)
+- Pemrograman 2 (Pertemuan 6)
+  NOTE: tolong di perhatikan, matkul seperti IoT itu fordis nya berupa kerjain tugas dan upload fordis nya sebagai luaran/laporan dalam bentuk pdf. untuk basis data semua pertemuan nya implementasi basis data pake sql server, jadi jangan asal.
+
+NFO TUGAS MINGGU INI!!:
+Tugas Matkul Pemrograman 2:
+
+- buatkan tampilan dan fungsi perhitungan biaya sewa lapangan futsal dengan java apache netbeans
+- untuk tampilan nya ada di group matkul nya yang di share bpk dosen
+- DATELINE: hari jumat ya. dikumpulkan di link berikut ini https://drive.google.com/drive/folders/1_EVXKVLRnH2i7Yh-SPeXYM_hnl-mCtz_?usp=sharing
+
+Tugas Matkul Rekayasa Perangkat Lunak:
+
+- Tolong dibuatkan sebuah makalah dari tugas project Kerja praktek, dikumpulkan ke dalam gsheet kelas yang sudah dibuat.
+- bikin makalah nya itu (judul, rumusan masalah, identifikasi masalah, latar belakang, metode, sampai model)
+- DATELINE: hari jumat ya, dibatkan link gdocs untuk pengumpulan makalah, tambahkan ke kolom link pada gsheet berikut ini ya https://docs.google.com/spreadsheets/d/1ANEUjEOVsZ-hnZsyoN-3PZcgzd0zhyOr/edit?usp=sharing&ouid=117384406474595822037&rtpof=true&sd=true
+- Selain itu, Matkul RPL ini juga ada Tugas Terstruktur pertemuan 6 nya, itu di ketik aja dan upload by pdf ke mentari tugas terstruktur pertemuan 6 ya.
+
+NOTE: please banget tanya ke ketua kelas ya klo kalian bingung atau butuh bantuan. Thanks
+
+INFO TUGAS!!!:
+
+- ketua kelas buat rekapan tugas di link google docs berikut ini https://docs.google.com/document/d/1CTa3LPuSSUqLOZCA2luiQwARcdkpQxAr2fQ9lXuOw-0/edit?usp=sharing
+- tujuan nya adalah teman teman agar bisa memantau dan melihat summary pertemuan matkul offline, tugas yang diberikan, materi dan informasi lainnya dari matakuliah tersebut
+  CATATAN: mohon maaf ya kalau ada kesalahan dalam penugasan atau perintah tugas matkul yang diberikan keliru dan salah. mohon di koreksi aja dan bantu mengingatkan.
+
+INFO TUGAS MATKUL PERTEMUAN 2 MINGGU INI!!!:
+MATKUL - Pemrograman 2:
+
+- install Netbeans di komputer/laptop teman teman, berikut source link nya https://www.codelerity.com/netbeans/
+- pastikan di pertemuan nanti temen-temen udah menyiapkan atau terinstall xampp atau laragon
+- membuat JFrame Form dengan diberi nama package "namakamu_pertemuan2" (contoh: abdulmajid_pertemuan2), nama file package diberi "latihan2" dan class file java diberi namakamu_Latihan2 (contoh: abdulmajid_latihan2)
+- membuat JFrame Form pada package latihan2, bebas tetapi menampilkan output bisa berupa title, component layout button, dll. secara sederhana aja.
+- setelah itu menjelaskan struktur project yang sudah dibuat dari tugas latihan2 membuat JFrame Form tersebut.
+- laporan dari tugas pertemuan 2 ini dibuat dan di kumpulkan ke dalam gdrive kelas pertemuan 2 berikut ini https://drive.google.com/drive/folders/16acGEdQFWXIaTyuG5NbNyoCUSU9Py7Cd?usp=sharing
+- DATELINE tiap tugas pertemuan itu sebelum pertemuan berikut nya, berarti di hari jumat akan di CLOSE
+  NOTE: klo ada yang mau ditanyakan detail seputar tugas boleh banget chat di group atau pribadi ke ketua kelas dan mohon di koreksi juga apabila ada kekeliruan atau kesalahan dalam penugasan. jadi mohon di maklumi. Terima kasih
